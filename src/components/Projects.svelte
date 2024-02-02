@@ -19,7 +19,9 @@ let yes = "dose"
         <li class="step step-accent">Excel doesn't show the grades assigned and the quotas.</li>
         <li class="step step-primary">Solution: A drag-and-drop list with some state management using localStorage.</li>
         <li class="step step-primary">Further features >> + sync with backend DB for persistence + toggleable grade visualisation.</li>
+        <li><a href="https://tinker.zixianchen.com/rank/"><button class="btn btn-primary btn-outline  text-base hover:btn-accent">Check it out</button></a></li>
     </ul>
+    
     {:else if yes === "bto"}
     <h3>BTOnomics blog with Wordpress</h3>  
     <ul class="steps steps-vertical place-items-start">
@@ -28,7 +30,7 @@ let yes = "dose"
         <li class="step step-accent">Solution: A Wordpress blog that documented my journey renovating my HDB, choosing an ID, buying and shipping from Taobao, DIY assembly..</li>
         <li class="step step-primary">Easy to host on shared hosting (since shifted to OCI + Nginx + PHP-FPM), good admin UX, huge plugin ecosystem, many templates avail.</li>
         <li class="step step-primary">(Being maintained as legacy item, thinking of redoing it on Hugo or Sveltekit).</li>
-    </ul>
+        <li><a href="https://btonomics.com"><button class="btn btn-primary btn-outline  text-base hover:btn-accent">Check it out</button></a></li>    </ul>
     {:else if yes === "dose"}
     <h3>Eat Your Medicine webapp</h3>
     <ul class="steps steps-vertical place-items-start">
@@ -37,6 +39,7 @@ let yes = "dose"
         <li class="step step-accent">Difficult to share among both parents too.</li>
         <li class="step step-primary">Solution: webapp to auto fill doses, track timings, and prompt generic info about the medicine.</li>
         <li class="step step-primary">Further features >> + Whatsapp/SMS alerts, probably via Twilio</li>
+        <li><a href="https://tinker.zixianchen.com/eatyourmeds/"><button class="btn btn-primary btn-outline  text-base hover:btn-accent">Check it out</button></a></li>
     </ul>
     {/if}
 </div>
