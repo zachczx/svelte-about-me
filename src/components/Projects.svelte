@@ -12,7 +12,7 @@ let yes = "dose"
 <div class="flex justify-center font-mono">
 <div class="w-5/6 bg-base-100 rounded-lg border border-1 p-4 font-mono">    
     {#if yes === "rank"}
-    <h3>Appraisal ranking app with Django/SortableJS</h3>
+    <h3>Appraisal ranking app with Django/SortableJS/Htmx</h3>
     <ul class="steps steps-vertical">
         <li class="step step-accent">Officers are rank sorted on Excel sheet, but not in sequence.</li>
         <li class="step step-accent">Excel is inefficient and doesn't sort automatically.</li>
@@ -32,7 +32,7 @@ let yes = "dose"
         <li class="step step-primary">(Being maintained as legacy item, thinking of redoing it on Hugo or Sveltekit).</li>
         <li><a href="https://btonomics.com"><button class="btn btn-primary btn-outline  text-base hover:btn-accent">Check it out</button></a></li>    </ul>
     {:else if yes === "dose"}
-    <h3>Eat Your Medicine webapp</h3>
+    <h3>Eat Your Medicine webapp with Django/Htmx/Bootstrap/Postgres</h3>
     <ul class="steps steps-vertical place-items-start">
         <li class="step step-accent">When my kid fell sick, I needed to know when the next dose of medicine was due.</li>
         <li class="step step-accent">Tedious to constantly copy-paste-write medicine/date/times/intervals, record in Telegram/Keep/Notion</li>
