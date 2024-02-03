@@ -11,7 +11,7 @@
         <li><a href="#projects" class="text-base">Projects</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost text-2xl text-primary hover:btn-outline">Zixian Chen</a>
+    <a class="btn bg-black hover:bg-accent text-2xl text-white">Zixian Chen</a>
   </div>
   <div class="navbar-end hidden lg:flex text-accent">
     <ul class="menu menu-horizontal px-1">
