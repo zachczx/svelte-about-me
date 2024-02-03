@@ -9,7 +9,7 @@
 </script>
 
 <Header />
-<section id="landing" class="h-[60rem] lg:h-[32rem] bg-neutral m-0">
+<section id="landing" class="h-[60rem] lg:h-[30rem] bg-neutral m-0 px-4">
     <Landing />
 </section>
 <div class="separator-header"></div>
@@ -73,7 +73,12 @@
     background-image: url("../lib/assets/svg/layered-waves-haikei.svg");
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-height: 850px) {
+    .separator-header {
+        height: 20rem;
+    }
+}
+@media only screen and (min-width: 1920px) {
     .separator-header {
         height: 30rem;
     }
