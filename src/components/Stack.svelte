@@ -20,10 +20,7 @@
     ]
 
     frontend.sort((a,b) => b.level - a.level)
-    console.log(frontend)
-
     backend.sort((a,b) => b.level - a.level)
-    console.log(backend)    
 </script>
 
 

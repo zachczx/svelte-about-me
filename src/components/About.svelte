@@ -13,10 +13,10 @@ let dxotoggle = false
         <div class="card bg-accent-content shadow-xl">
             <div class="card-body">
                 <h2 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg> 
-                    I'm a civil serpent
+                    Occifer
                 </h2>
-              <p>
-                I work in the public service in Singapore.
+              <p>I'm a civil serpent.</p>
+                <p>I work in the public service in Singapore.
                 <sup>
                     <button on:click={() => {dxotoggle = !dxotoggle}}>#</button>
                     {#if dxotoggle}
@@ -36,7 +36,7 @@ let dxotoggle = false
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shovel" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 4l3 3" /><path d="M18.5 5.5l-8 8" /><path d="M8.276 11.284l4.44 4.44a.968 .968 0 0 1 0 1.369l-2.704 2.704a4.108 4.108 0 0 1 -5.809 -5.81l2.704 -2.703a.968 .968 0 0 1 1.37 0z" /></svg>
                     Work work
                 </h2>
-              <p>I like to get hands on for tech related problems and ideas. I got rather good at the bureaucracy aspect of the service, but realized it's quite pointless.</p>
+              <p>I like to get hands on for tech related problems and ideas. Learned to function despite bureaucracy.</p>
             </div>
           </div>
         
@@ -47,9 +47,9 @@ let dxotoggle = false
             <div class="card-body">
                 <h2 class="card-title">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-office" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 18h9v-12l-5 2v5l-4 2v-8l9 -4l7 2v13l-7 3z" /></svg> 
-                    Meetings & M365
+                    Office
                 </h2>
-              <p>At work, I go for meetings (sometimes unfortunately not even on Teams!), write Outlook emails, create .pptx presentations, write .docx papers.</p><p class="mt-4">Work is seldom groundbreaking, but there're sometimes interesting and enjoyable problems.</p>
+              <p>At work, I go for meetings (sometimes unfortunately not even on Teams!), write Outlook emails, create .pptx presentations, write .docx papers.</p>
             </div>
             <figure><img src={corgiPresentationCard} alt="Corgi presenting" class="object-scale-down" loading="lazy" /></figure>
         </div>
