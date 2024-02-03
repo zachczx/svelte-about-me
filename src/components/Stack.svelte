@@ -4,16 +4,16 @@
     const frontend = [
         {thing:'Svelte', level: 20},
         {thing:'Htmx', level: 30},
-        {thing:'Javascript ES6', level: 30},
+        {thing:'Javascript', level: 30},
         {thing:'Tailwind', level: 20},
-        {thing:'Alpine JS', level: 10},
+        {thing:'Alpine', level: 10},
         {thing:'Bootstrap', level: 60},
     ]
 
     const backend = [
         {thing:'Python3', level: 15},
         {thing:'Django', level: 30},
-        {thing:'Django Rest Framework', level: 15},
+        {thing:'DRF', level: 15},
         {thing:'Sveltekit', level: 10},
         {thing:'SQL', level: 15},
         {thing:'PHP8', level: 5},
@@ -68,8 +68,12 @@
 <div>
     <h3 class="">I use</h3>
     <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">Oracle Cloud Compute</span>
-    <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">Digital Ocean Droplets</span>
-    <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">Ubuntu/Nginx</span>
+    <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">Digital Ocean Droplet</span>
+    <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">Ubuntu</span>
+    <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">Nginx</span>
+    <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">Gunicorn</span>
+    <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">NodeJS</span>
+    <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">PHP-FPM</span>
     <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">Cloudflare Pages</span>
     <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">Wordpress</span>
 </div>
@@ -77,7 +81,7 @@
     <h3 class="">Courses/Certificates</h3>
     <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">Meta Back-end Developer Specialization</span>
     <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">AWS Fundamentals Specialization</span>
-    <a on:click={() => {googleopen = !googleopen}} href="#">
+    <a on:click={() => {googleopen = !googleopen}} href="#stack">
         <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-base my-1">Google UX
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrows-maximize inline" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 4l4 0l0 4" /><path d="M14 10l6 -6" /><path d="M8 20l-4 0l0 -4" /><path d="M4 20l6 -6" /><path d="M16 20l4 0l0 -4" /><path d="M14 14l6 6" /><path d="M8 4l-4 0l0 4" /><path d="M4 4l6 6" /></svg>
         </span>

@@ -1,7 +1,11 @@
 <script>
 let yes = "dose"
 </script>
+
+<h2 class="mb-9 text-center font-mono">Personal projects</h2>
+
 <div class="flex justify-center mt-7 font-mono">
+
 <button on:click={() => {yes="dose"}} class="btn btn-accent text-base mx-2"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-watch" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 9a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-6z" /><path d="M9 18v3h6v-3" /><path d="M9 6v-3h6v3" /></svg>
     Meds Dose Tracker</button>
 <button on:click={() => {yes="bto"}} class="btn btn-accent text-base mx-2"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" /></svg>
@@ -17,8 +21,8 @@ let yes = "dose"
         <li class="step step-accent">Officers are rank sorted on Excel sheet, but not in sequence.</li>
         <li class="step step-accent">Excel is inefficient and doesn't sort automatically.</li>
         <li class="step step-accent">Excel doesn't show the grades assigned and the quotas.</li>
-        <li class="step step-primary">Solution: A drag-and-drop list with some state management using localStorage.</li>
-        <li class="step step-primary">Further features >> + sync with backend DB for persistence + toggleable grade visualisation.</li>
+        <li class="step step-secondary">Solution: A drag-and-drop list with some state management using localStorage.</li>
+        <li class="step step-secondary">Further features >> + sync with backend DB for persistence + toggleable grade visualisation.</li>
         <li><a href="https://tinker.zixianchen.com/rank/"><button class="btn btn-primary btn-outline  text-base hover:btn-accent">Check it out</button></a></li>
     </ul>
     
@@ -28,8 +32,8 @@ let yes = "dose"
         <li class="step step-accent">I was a new home owner with little money.</li>
         <li class="step step-accent">I didn't know how to buy/ship from Taobao, design, choose lights, pick flooring, select fans, decide taps..</li>
         <li class="step step-accent">Solution: A Wordpress blog that documented my journey renovating my HDB, choosing an ID, buying and shipping from Taobao, DIY assembly..</li>
-        <li class="step step-primary">Easy to host on shared hosting (since shifted to OCI + Nginx + PHP-FPM), good admin UX, huge plugin ecosystem, many templates avail.</li>
-        <li class="step step-primary">(Being maintained as legacy item, thinking of redoing it on Hugo or Sveltekit).</li>
+        <li class="step step-secondary">Easy to host on shared hosting (since shifted to OCI + Nginx + PHP-FPM), good admin UX, huge plugin ecosystem, many templates avail.</li>
+        <li class="step step-secondary">(Being maintained as legacy item, thinking of redoing it on Hugo or Sveltekit).</li>
         <li><a href="https://btonomics.com"><button class="btn btn-primary btn-outline  text-base hover:btn-accent">Check it out</button></a></li>    </ul>
     {:else if yes === "dose"}
     <h3>Eat Your Medicine webapp with Django/Htmx/Bootstrap/Postgres</h3>
@@ -37,8 +41,8 @@ let yes = "dose"
         <li class="step step-accent">When my kid fell sick, I needed to know when the next dose of medicine was due.</li>
         <li class="step step-accent">Tedious to constantly copy-paste-write medicine/date/times/intervals, record in Telegram/Keep/Notion</li>
         <li class="step step-accent">Difficult to share among both parents too.</li>
-        <li class="step step-primary">Solution: webapp to auto fill doses, track timings, and prompt generic info about the medicine.</li>
-        <li class="step step-primary">Further features >> + Whatsapp/SMS alerts, probably via Twilio</li>
+        <li class="step step-secondary">Solution: webapp to auto fill doses, track timings, and prompt generic info about the medicine.</li>
+        <li class="step step-secondary">Further features >> + Whatsapp/SMS alerts, probably via Twilio</li>
         <li><a href="https://tinker.zixianchen.com/eatyourmeds/"><button class="btn btn-primary btn-outline  text-base hover:btn-accent">Check it out</button></a></li>
     </ul>
     {/if}

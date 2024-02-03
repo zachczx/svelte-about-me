@@ -2,7 +2,7 @@
         import profilepic from "$lib/assets/kitandi.webp";
 </script>
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 items-center w-full h-full">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 items-center w-full px-7 h-full">
     <div class="lg:col-span-5 avatar justify-self-center w-96 h-96">
         <div class="rounded-full">
             <img src={profilepic} class="object-scale-down" alt="Kit and I">
