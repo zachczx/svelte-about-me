@@ -65,11 +65,18 @@
   top: 10;
 }*/
 
+
 .separator-header {
     width: 100%;
     height: 20rem;
     background-size: cover;
     background-image: url("../lib/assets/svg/layered-waves-haikei.svg");
+}
+
+@media only screen and (min-width: 1200px) {
+    .separator-header {
+        height: 30rem;
+    }
 }
 
 .separator {

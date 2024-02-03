@@ -13,7 +13,7 @@
     </form>
   </dialog>
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 items-center w-full px-7 h-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-center w-full px-7 h-full">
     <div class="lg:col-span-5 avatar justify-self-center w-96 h-96">
         <div class="rounded-full">
             <a><img src={profilepic} class="object-scale-down object-center" alt="AI generated, so it's me but not rly." on:click={() => {my_modal_2.showModal()}} on:mouseover={() => {tooltip1 = true}} on:mouseout={() => {tooltip1 = false}}></a>
