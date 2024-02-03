@@ -3,10 +3,20 @@
         let tooltip1 = false
 </script>
 
+<dialog id="my_modal_2" class="modal">
+    <div class="modal-box">
+      <h3 class="flex font-bold text-lg"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-circle-filled inline" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="white" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 2c5.523 0 10 4.477 10 10a10 10 0 0 1 -19.995 .324l-.005 -.324l.004 -.28c.148 -5.393 4.566 -9.72 9.996 -9.72zm.01 13l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -8a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" stroke-width="0" fill="red" /></svg><span class="self-center ms-1">Disclaimer</span></h3>
+      <p class="py-4">AI generated pic, so it's me but not rly.</p>
+    </div>
+    <form method="dialog" class="modal-backdrop">
+      <button>close</button>
+    </form>
+  </dialog>
+
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 items-center w-full px-7 h-full">
     <div class="lg:col-span-5 avatar justify-self-center w-96 h-96">
         <div class="rounded-full">
-            <img src={profilepic} class="object-scale-down object-center" alt="AI generated, so it's me but not rly." on:mouseover={() => {tooltip1 = true}} on:mouseout={() => {tooltip1 = false}}>
+            <a><img src={profilepic} class="object-scale-down object-center" alt="AI generated, so it's me but not rly." on:click={() => {my_modal_2.showModal()}} on:mouseover={() => {tooltip1 = true}} on:mouseout={() => {tooltip1 = false}}></a>
         </div>
     </div>
     <div class="lg:col-span-7">
@@ -38,3 +48,4 @@
     </div>
     </div>
 </div>
+
