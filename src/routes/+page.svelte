@@ -9,10 +9,10 @@
 </script>
 
 <Header />
-<section id="landing" class="h-[50rem] lg:h-[35rem] bg-neutral m-0">
+<section id="landing" class="h-[60rem] lg:h-[32rem] bg-neutral m-0">
     <Landing />
 </section>
-<div class="separator"></div>
+<div class="separator-header"></div>
 
 <section id="about" class="">
     <div class="container max mx-auto px-5 py-5">
@@ -47,6 +47,31 @@
 
 
 <style>
+/*.separator-header {
+    position: relative;
+    height: 10rem;
+    background: #EDF1D6;
+    margin-bottom: 5rem;
+}
+
+.separator-header::after {
+  content: '';
+  background-image: url("../lib/assets/svg/layered-waves-haikei.svg");
+  background-size: cover;  
+  position: absolute;
+  width: 100%;
+  height: 15rem;
+  bottom: 10;
+  top: 10;
+}*/
+
+.separator-header {
+    width: 100%;
+    height: 20rem;
+    background-size: cover;
+    background-image: url("../lib/assets/svg/layered-waves-haikei.svg");
+}
+
 .separator {
   position: relative;
   height: 5rem;
