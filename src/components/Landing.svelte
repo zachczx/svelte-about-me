@@ -1,5 +1,6 @@
 <script>
         import profilepic from "$lib/assets/1706919561270.webp";
+        import bgSvg from "$lib/assets/svg/square-versatiles.svg";
         let tooltip1 = false
 </script>
 
@@ -13,7 +14,7 @@
     </form>
   </dialog>
 
-<div class="grid grid-cols-1 lg:grid-cols-12 items-center w-full h-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-center w-full h-full" style="background-image:url('{bgSvg}')">
     <div class="lg:col-span-3 justify-end"><p class="text-5xl text-center lg:text-right">Hello, I'm <b>Zixian</b>.</p></div>
     <div class="lg:col-span-3 avatar justify-self-center w-96 h-96">
         <div class="rounded-full">
