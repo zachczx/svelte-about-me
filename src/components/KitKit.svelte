@@ -20,34 +20,34 @@ import kit8 from "$lib/assets/kit.webp";
 <div class="flex justify-center h-96">
 <div class="carousel carousel-center p-4 w-full space-x-4 bg-base-300 rounded-box">
     <div class="carousel-item">
-      <img src={kit1} class="object-scale-down rounded-lg" loading="lazy" />
+      <img src={kit1} class="active object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
     </div> 
     <div class="carousel-item">
-      <img src={kit2} class="object-scale-down rounded-lg" loading="lazy" />
+      <img src={kit2} class="object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
     </div>
     <div class="carousel-item">
-      <img src={kit9} class="object-scale-down rounded-lg" loading="lazy" />
+      <img src={kit9} class="object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
     </div> 
     <div class="carousel-item">
-      <img src={kit3} class="object-scale-down rounded-lg" loading="lazy" />
+      <img src={kit3} class="object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
     </div> 
     <div class="carousel-item">
-      <img src={kit4} class="object-scale-down rounded-lg" loading="lazy" />
+      <img src={kit4} class="object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
     </div> 
     <div class="carousel-item">
-        <img src={kit5} class="object-scale-down rounded-lg" loading="lazy" />
+        <img src={kit5} class="object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
     </div> 
     <div class="carousel-item">
-        <img src={kit6} class="object-scale-down rounded-lg" loading="lazy" />
+        <img src={kit6} class="object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
     </div>
     <div class="carousel-item">
-        <img src={kit7} class="object-scale-down rounded-lg" loading="lazy" />
+        <img src={kit7} class="object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
     </div>
     <div class="carousel-item">
-        <img src={kit8} class="object-scale-down rounded-lg" loading="lazy" />
+        <img src={kit8} class="object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
     </div>
   </div>
 </div>
-<p class="mt-5">She's a 4-year old Corgi x Spitz.</p>
-<p>We love Kit, though sometimes she's naughty and will chew paper lying around. She looks like this when she does something wrong.</p>
-<p>It's great she doesn't eat anything on the floor or chew cables, though she used to.</p>
+<p class="my-5">She's a 4-year old Corgi x Spitz.</p>
+<p class="my-5">We love Kit, though sometimes she's naughty and will chew paper lying around. She looks like this when she does something wrong.</p>
+<p class="my-5">It's great she doesn't eat anything on the floor or chew cables, though she used to.</p>

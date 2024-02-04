@@ -9,7 +9,7 @@
 </script>
 
 <Header />
-<section id="landing" class="h-[60rem] lg:h-[30rem] bg-neutral m-0 px-4">
+<section id="landing" class="h-[65rem] lg:h-[30rem] bg-neutral m-0 px-4">
     <Landing />
 </section>
 <div class="separator-header"></div>
@@ -43,28 +43,10 @@
 <section id="kitkit" class="p-5">
     <KitKit />
 </section>
-<div class="separator-white"></div>
+<div class="separator-footer"></div>
 
 
 <style>
-/*.separator-header {
-    position: relative;
-    height: 10rem;
-    background: #EDF1D6;
-    margin-bottom: 5rem;
-}
-
-.separator-header::after {
-  content: '';
-  background-image: url("../lib/assets/svg/layered-waves-haikei.svg");
-  background-size: cover;  
-  position: absolute;
-  width: 100%;
-  height: 15rem;
-  bottom: 10;
-  top: 10;
-}*/
-
 
 .separator-header {
     width: 100%;
@@ -73,14 +55,29 @@
     background-image: url("../lib/assets/svg/layered-waves-haikei.svg");
 }
 
-@media only screen and (min-height: 850px) {
+.separator-footer {
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat; 
+    background-image: url("../lib/assets/svg/layered-waves-haikei-footer.svg");
+}
+
+@media only screen and (min-height: 960px) {
     .separator-header {
         height: 20rem;
+    }
+    .separator-footer {
+        height: 25rem;
     }
 }
 @media only screen and (min-width: 1920px) {
     .separator-header {
         height: 30rem;
+    }
+    .separator-footer {
+        height: 25rem;
     }
 }
 
@@ -96,7 +93,7 @@
   position: absolute;
   transform: scaleY(-1);
   width: 100%;
-  height: 2rem;
+  height: 2.5rem;
   bottom: 0;
 }
 
