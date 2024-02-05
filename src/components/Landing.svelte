@@ -21,11 +21,11 @@
 <div class="lg:col-span-6">
     <div class="grid justify-center">
     <div>
-        <p class="text-2xl">I'm a <span class="rounded-full btn btn-accent text-2xl"><a href="#experience">public servant</a></span></p>
+        <p class="text-2xl">For work, I'm a <span class="rounded-full btn btn-accent text-2xl"><a href="#experience">public servant</a></span></p>
         <p class="text-xl mb-10 ms-[4rem]">I do <b>digitalization</b> and <b>digital products</b>.</p>
     </div>
     <div>
-        <p class="text-2xl font-mono">I'm also a <span class="rounded-full btn btn-accent text-2xl"><a href="#projects">webdev/wannabe</a></span></p>
+        <p class="text-2xl font-mono">For hobby, I'm a <span class="rounded-full btn btn-accent text-2xl"><a href="#projects">webdev</a></span></p>
         <p class="text-xl mb-6 font-mono ms-[4rem]">I enjoy writing <b>web apps</b> and <b>code</b>.</p>
     </div>
     </div>
