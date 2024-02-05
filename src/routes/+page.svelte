@@ -9,7 +9,7 @@
 </script>
 
 <Header />
-<section id="landing" class="h-[65rem] lg:h-[30rem] bg-neutral m-0 px-4">
+<section id="landing" class="h-[65rem] lg:h-[35rem] bg-neutral m-0 px-4">
     <Landing />
 </section>
 <div class="separator-header"></div>

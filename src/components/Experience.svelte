@@ -1,4 +1,4 @@
-<h2 class="mb-7 text-center">Past work</h2>
+<h2 class="mb-7 text-center"><a href="https://www.linkedin.com/in/zixianchen/">Past work</a></h2>
 <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
   <li>
     <div class="timeline-middle">

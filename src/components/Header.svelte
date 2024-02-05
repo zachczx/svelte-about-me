@@ -1,7 +1,7 @@
 <script>
   import bgSvg from "$lib/assets/svg/square-versatiles.svg";
 </script>
-<div class="navbar bg-neutral" style="background-image:url('{bgSvg}')">
+<div class="navbar bg-neutral">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -16,12 +16,13 @@
     </div>
     <a class="btn bg-black hover:bg-accent text-2xl text-white">Zixian Chen</a>
   </div>
-  <div class="navbar-end hidden lg:flex text-accent" style="background-image:url('{bgSvg}')">
+  <div class="navbar-end hidden lg:flex text-accent">
     <ul class="menu menu-horizontal px-1">
       <li><a href="#about" class="text-xl font-bold hover:btn-outline">About</a></li>
       <li><a href="#experience" class="text-xl font-bold hover:btn-outline">Experience</a></li>
       <li><a href="#stack" class="text-xl font-bold hover:btn-outline">Stack</a></li>
       <li><a href="#projects" class="text-xl font-bold hover:btn-outline">Projects</a></li>
+      <li><a href="https://www.linkedin.com/in/zixianchen/" class="text-xl font-bold hover:btn-outline">LinkedIn</a></li>
     </ul>
   </div>
 </div>
