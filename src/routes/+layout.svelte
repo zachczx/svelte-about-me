@@ -12,5 +12,6 @@
 <footer class="footer footer-center p-4 text-base-content bg-neutral">
     <aside>
       <p>Copyright © 2023-24 Zixian Chen. All rights reserved.</p>
+      <p>Background SVGs from <a href="https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/">SVGBackgrounds</a>.</p>
     </aside>
   </footer>
