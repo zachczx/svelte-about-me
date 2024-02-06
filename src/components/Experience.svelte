@@ -1,4 +1,4 @@
-<h2 class="mb-7 text-center"><a href="https://www.linkedin.com/in/zixianchen/">Past work</a></h2>
+<h2 id="experience" class="mb-7 text-center"><a href="https://www.linkedin.com/in/zixianchen/">Past work</a></h2>
 <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
   <li>
     <div class="timeline-middle">
@@ -38,9 +38,7 @@
       <time class="font-mono italic">2017</time>
       <div class="text-lg font-black">Comms Product Owner @ MINDEF Comms</div>
       <p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus inline" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" fill="black" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M9 12h6" stroke="white" /><path d="M12 9v6" stroke="white" /></svg>        Product owner for in-house tooling/products for media analysts</p>
-      <p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus inline" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" fill="black" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M9 12h6" stroke="white" /><path d="M12 9v6" stroke="white" /></svg>        Bought commercial analytic tools and oversaw process reengineering.</p>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus inline" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" fill="black" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M9 12h6" stroke="white" /><path d="M12 9v6" stroke="white" /></svg>        Product owner for self built & purchased tooling for media analysts</p>
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus inline" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" fill="black" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M9 12h6" stroke="white" /><path d="M12 9v6" stroke="white" /></svg>        Raised investments internally and oversaw NLP/CV research projects</p>      
     </div>
@@ -55,9 +53,7 @@
       <time class="font-mono italic">2021</time>
       <div class="text-lg font-black">Digital Infrastructure @ Smart Nation SG</div>
       <p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus inline" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" fill="black" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M9 12h6" stroke="white" /><path d="M12 9v6" stroke="white" /></svg>        Paper pusher for Govt on commercial cloud, Govt data centre</p>
-      <p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus inline" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" fill="black" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M9 12h6" stroke="white" /><path d="M12 9v6" stroke="white" /></svg>        Paper pusher for SG Govt tech stack, employee tooling</p>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus inline" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" fill="black" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M9 12h6" stroke="white" /><path d="M12 9v6" stroke="white" /></svg>        Paper pusher for Govt on commercial cloud, Govt data centre, SG Govt tech stack, employee tooling</p>
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus inline" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" fill="black" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M9 12h6" stroke="white" /><path d="M12 9v6" stroke="white" /></svg>        Assessed funding requests from Govt agencies trying to start digitalization & modernization projects</p>          
     </div>

@@ -1,7 +1,7 @@
 <script>
 import kit1 from "$lib/assets/IMG_20200124_134033.webp";
 import kit2 from "$lib/assets/IMG_20200205_211332.webp";
-import kit9 from "$lib/assets/kitandi.webp";
+//import kit9 from "$lib/assets/kitandi.webp";
 import kit3 from "$lib/assets/IMG_20200314_143553.webp";
 import kit4 from "$lib/assets/PXL_20231025_130824607.PORTRAIT.webp";
 import kit5 from "$lib/assets/PXL_20231029_120334733.webp";
@@ -11,7 +11,7 @@ import kit8 from "$lib/assets/kit.webp";
 </script>
 
 
-<h2 class="text-center mb-5">
+<h2 class="text-center mb-5" id="kitkit">
     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dog inline" width="50" height="50 " viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11 5h2" /><path d="M19 12c-.667 5.333 -2.333 8 -5 8h-4c-2.667 0 -4.333 -2.667 -5 -8" /><path d="M11 16c0 .667 .333 1 1 1s1 -.333 1 -1h-2z" /><path d="M12 18v2" /><path d="M10 11v.01" /><path d="M14 11v.01" /><path d="M5 4l6 .97l-6.238 6.688a1.021 1.021 0 0 1 -1.41 .111a.953 .953 0 0 1 -.327 -.954l1.975 -6.815z" /><path d="M19 4l-6 .97l6.238 6.688c.358 .408 .989 .458 1.41 .111a.953 .953 0 0 0 .327 -.954l-1.975 -6.815z" /></svg>
     Shoutout to our doggo, Kit (Kitkit) 
     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dog inline" width="50" height="50 " viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11 5h2" /><path d="M19 12c-.667 5.333 -2.333 8 -5 8h-4c-2.667 0 -4.333 -2.667 -5 -8" /><path d="M11 16c0 .667 .333 1 1 1s1 -.333 1 -1h-2z" /><path d="M12 18v2" /><path d="M10 11v.01" /><path d="M14 11v.01" /><path d="M5 4l6 .97l-6.238 6.688a1.021 1.021 0 0 1 -1.41 .111a.953 .953 0 0 1 -.327 -.954l1.975 -6.815z" /><path d="M19 4l-6 .97l6.238 6.688c.358 .408 .989 .458 1.41 .111a.953 .953 0 0 0 .327 -.954l-1.975 -6.815z" /></svg>
@@ -25,9 +25,6 @@ import kit8 from "$lib/assets/kit.webp";
     <div class="carousel-item">
       <img src={kit2} class="object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
     </div>
-    <div class="carousel-item">
-      <img src={kit9} class="object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
-    </div> 
     <div class="carousel-item">
       <img src={kit3} class="object-scale-down rounded-lg" alt="Kitkit" loading="lazy" />
     </div> 

@@ -7,7 +7,7 @@ import pandaCard from "$lib/assets/_8cf7aaac-e91a-4a81-9d6c-f5faee41baa0.webp";
 let dxotoggle = false
 </script>
 
-<h2 class="mb-5 text-center">Who am I?</h2>
+<h2 id="about" class="mb-5 text-center">Who am I?</h2>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-5">
     <div>
         <div class="card bg-accent-content shadow-xl">

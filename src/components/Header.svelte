@@ -1,7 +1,7 @@
 <script>
   import bgSvg from "$lib/assets/svg/square-versatiles.svg";
 </script>
-<div class="navbar bg-neutral">
+<div class="navbar bg-transparent">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -14,7 +14,6 @@
         <li><a href="#projects" class="text-base">Projects</a></li>
       </ul>
     </div>
-    <a class="btn bg-black hover:bg-accent text-2xl text-white">Zixian Chen</a>
   </div>
   <div class="navbar-end hidden lg:flex text-accent">
     <ul class="menu menu-horizontal px-1">
