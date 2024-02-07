@@ -16,19 +16,19 @@
 </section>
 <!-- <div class="separator-header"></div> -->
 
-<section class="min-h-dvh">
+<section class="">
     <div class="container max mx-auto px-5 py-10">
         <About />
     </div>
 </section>
 
 
-<section class="min-h-dvh p-5 bg-greengreen">
+<section class="p-5 bg-greengreen">
     <Experience />
 </section>
 
 
-<section class="min-h-dvh font-mono">
+<section class="font-mono">
     <div class="container max mx-auto px-4 py-5">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-7">
             <Stack />
@@ -36,7 +36,7 @@
     </div>
 </section>
 
-<section class="min-h-dvh p-5 bg-greengreen">
+<section class="p-5 bg-greengreen">
     <Projects />
 </section>
 
