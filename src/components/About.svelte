@@ -2,7 +2,7 @@
 import corgiProgrammingCard from "$lib/assets/corgi-with-keyboard.webp";
 import corgiPresentationCard from "$lib/assets/sad-corgi-beside-powerpoint.webp";
 import civilSerpentCard from "$lib/assets/snake-civil-serpent.webp";
-import pandaCard from "$lib/assets/_8cf7aaac-e91a-4a81-9d6c-f5faee41baa0.webp";
+import corgiConstruction from "$lib/assets/_ed628867-7fef-435a-9ccd-b9d540173c63.webp";
 
 let dxotoggle = false
 </script>
@@ -30,7 +30,7 @@ let dxotoggle = false
     </div>
     <div>
         <div class="card bg-accent-content shadow-xl">
-            <figure><img src={pandaCard} alt="Panda at work" class="object-scale-down" loading="lazy" /></figure>
+            <figure><img src={corgiConstruction} alt="Corgi at work" class="object-scale-down" loading="lazy" /></figure>
             <div class="card-body">
                 <h2 class="card-title">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shovel" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 4l3 3" /><path d="M18.5 5.5l-8 8" /><path d="M8.276 11.284l4.44 4.44a.968 .968 0 0 1 0 1.369l-2.704 2.704a4.108 4.108 0 0 1 -5.809 -5.81l2.704 -2.703a.968 .968 0 0 1 1.37 0z" /></svg>
