@@ -9,6 +9,9 @@
     import bgSquare from "$lib/assets/svg/square-versatiles.svg";
 </script>
 
+<svelte:head>
+    <title>Hi! I'm Zixian Chen.</title>
+</svelte:head>
 
 <section id="landing" class="m-0 px-4 bg-yellowgreen">
     <Header />
