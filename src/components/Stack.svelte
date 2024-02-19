@@ -65,7 +65,7 @@
 <div>
     <h3 class="mb-5">I use</h3>
     <p class="mb-3">
-        <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">Oracle Cloud Compute</span>
+        <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">Oracle Cloud Infra</span>
         <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">Digital Ocean Droplet</span>
     </p>
     <p class="mb-3">
