@@ -6,7 +6,7 @@
         {thing:'Htmx', level: 30},
         {thing:'Javascript', level: 30},
         {thing:'Tailwind', level: 20},
-        {thing:'Alpine', level: 10},
+        {thing:'AlpineJS', level: 10},
         {thing:'Bootstrap', level: 60},
     ]
 
@@ -26,7 +26,7 @@
 
 <div class="col-span-1 md:col-span-2">
     <h2 id="stack" class="mb-5 text-center">Things I learn & use</h2>
-    <p class="mb-6 text-xl">In my free time, I learn and build stuff on the web to solve my problems IRL. Ended up here after clicking on Meta's backend dev course back then.</p>
+    <p class="mb-6 text-xl">I'm an <i>amateur</i>. I spend my free time learning new things in webdev and applying it in small ways.</p>
 </div>
 <div>
     <h3 class="mb-5">Frontend</h3>
