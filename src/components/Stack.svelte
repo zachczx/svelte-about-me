@@ -82,13 +82,13 @@
 
 </div>
 <div class="mb-7">
-    <h3 class="mb-5">Courses/Certificates</h3>
+    <h3 class="mb-5 anchor" id="googopen">Courses/Certificates</h3>
     <p class="mb-3">
         <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">Meta Back-end Developer Specialization</span>
         <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">AWS Fundamentals Specialization</span>
     </p>
     <p class="mb-3">
-        <a on:click={() => {googleopen = !googleopen}} href="#stack">
+        <a on:click={() => {googleopen = !googleopen}} href="#googstack">
             <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">Google UX
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrows-maximize inline" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 4l4 0l0 4" /><path d="M14 10l6 -6" /><path d="M8 20l-4 0l0 -4" /><path d="M4 20l6 -6" /><path d="M16 20l4 0l0 -4" /><path d="M14 14l6 6" /><path d="M8 4l-4 0l0 4" /><path d="M4 4l6 6" /></svg>
             </span>
@@ -102,3 +102,20 @@
         <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">LeSS Basics<a href="https://www.youtube.com/watch?v=vSnCeJEka_s"><svg class="icon icon-tabler icon-tabler-mood-sad-dizzy inline" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M14.5 16.05a3.5 3.5 0 0 0 -5 0" /><path d="M8 9l2 2" /><path d="M10 9l-2 2" /><path d="M14 9l2 2" /><path d="M16 9l-2 2" /></svg></a></span>    
     </p>
 </div>
+
+<div class="mb-7">
+    <h3 class="mb-5">Frivolous stuff</h3>
+    <p class="mb-3">
+        <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">SDXL 1.0 + Loras</span>
+        <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">A1111 + OneTrainer</span>
+    </p>
+</div>
+
+<style>
+.anchor{
+  display: block;
+  position:absolute;
+  top:50%;
+  visibility: hidden;
+}
+</style>

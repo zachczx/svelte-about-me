@@ -60,11 +60,11 @@ let dxotoggle = false
         <div class="card bg-accent-content shadow-xl">
             <figure><img src={corgiProgrammingCard} alt="Corgi programming" class="object-scale-down" loading="lazy" /></figure>
             <div class="card-body">
-                <h2 class="card-title font-mono">
+                <h2 class="card-title">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-desktop" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z" /><path d="M7 20h10" /><path d="M9 16v4" /><path d="M15 16v4" /></svg>    
                     Hobby
                 </h2>
-              <p class="font-mono">As a hobby, I like to build stuff on the web that can solve real problems. Even better if I can try out yet another JS framework!</p>
+              <p class="">As a hobby, I like to build stuff on the web that can solve real problems. Even better if I can try out yet another JS framework!</p>
             </div>
           </div>
     </div>
