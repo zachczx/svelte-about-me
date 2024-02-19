@@ -31,7 +31,7 @@
 </section>
 
 
-<section class="font-mono">
+<section class="">
     <div class="container max mx-auto px-4 py-5">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-7">
             <Stack />
