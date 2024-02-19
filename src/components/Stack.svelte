@@ -82,7 +82,7 @@
 
 </div>
 <div class="mb-7">
-    <h3 class="mb-5 anchor" id="googopen">Courses/Certificates</h3>
+    <h3 class="mb-5" id="googstack">Courses/Certificates</h3>
     <p class="mb-3">
         <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">Meta Back-end Developer Specialization</span>
         <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">AWS Fundamentals Specialization</span>
@@ -110,12 +110,3 @@
         <span class="btn btn-xs btn-primary btn-outline hover:btn-accent text-lg my-1">A1111 + OneTrainer</span>
     </p>
 </div>
-
-<style>
-.anchor{
-  display: block;
-  position:absolute;
-  top:50%;
-  visibility: hidden;
-}
-</style>
