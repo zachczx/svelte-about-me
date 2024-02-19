@@ -46,5 +46,5 @@ import kit8 from "$lib/assets/kit.webp";
   </div>
 </div>
 <p class="my-5">She's a 4-year old Corgi x Spitz.</p>
-<p class="my-5">We love Kit, though sometimes she's naughty and will chew paper lying around. She looks like this when she does something wrong.</p>
+<p class="my-5">We love Kit. Though sometimes she's naughty and will chew tissue lying around. And she eats her poop. She looks like this when she does something wrong.</p>
 <p class="my-5">It's great she doesn't eat anything on the floor or chew cables, though she used to.</p>
