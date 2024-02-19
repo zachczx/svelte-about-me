@@ -46,5 +46,5 @@ import kit8 from "$lib/assets/kit.webp";
   </div>
 </div>
 <p class="my-5">She's a 4-year old Corgi x Spitz.</p>
-<p class="my-5">We love Kit. Though sometimes she's naughty and will chew tissue lying around. And she eats her poop. She looks like this when she does something wrong.</p>
+<p class="my-5">We love Kit. Though sometimes she's naughty and will chew tissue lying around. And she eats her <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-poo inline fill-orange-700 hover:fill-orange-400" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 12h.01" /><path d="M14 12h.01" /><path d="M10 16a3.5 3.5 0 0 0 4 0" /><path d="M11 4c2 0 3.5 1.5 3.5 4l.164 0a2.5 2.5 0 0 1 2.196 3.32a3 3 0 0 1 1.615 3.063a3 3 0 0 1 -1.299 5.607l-.176 0h-10a3 3 0 0 1 -1.474 -5.613a3 3 0 0 1 1.615 -3.062a2.5 2.5 0 0 1 2.195 -3.32l.164 0c1.5 0 2.5 -2 1.5 -4z" /></svg>. She looks like this when she does something wrong.</p>
 <p class="my-5">It's great she doesn't eat anything on the floor or chew cables, though she used to.</p>
