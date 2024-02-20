@@ -23,7 +23,7 @@ let dxotoggle = false
 <h2 id="about" class="mb-5 text-center">Who am I?</h2>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-5">
     <div>
-        <div class="card bg-accent-content shadow-xl" data-aos="slide-right">
+        <div class="card bg-accent-content shadow-xl" data-aos="slide-up">
             <div class="card-body">
                 <h2 class="card-title text-2xl xl:text-3xl"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg> 
                     Civil serpent
@@ -38,7 +38,7 @@ let dxotoggle = false
                 </sup>
               </p>
             </div>
-            <figure data-aos="slide-up"><img src={civilSerpentCard} alt="Civil serpent gogogo" class="object-scale-down" loading="lazy" /></figure>
+            <figure><img src={civilSerpentCard} alt="Civil serpent gogogo" class="object-scale-down" loading="lazy" /></figure>
         </div>
     </div>
     <div>
@@ -68,8 +68,8 @@ let dxotoggle = false
         </div>
     </div>
     <div>
-        <div class="card bg-accent-content shadow-xl" data-aos="slide-left">
-            <figure data-aos="slide-down"><img src={corgiProgrammingCard} alt="Corgi programming" class="object-scale-down" loading="lazy" /></figure>
+        <div class="card bg-accent-content shadow-xl" data-aos="slide-down">
+            <figure><img src={corgiProgrammingCard} alt="Corgi programming" class="object-scale-down" loading="lazy" /></figure>
             <div class="card-body">
                 <h2 class="card-title text-2xl xl:text-3xl">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-desktop" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z" /><path d="M7 20h10" /><path d="M9 16v4" /><path d="M15 16v4" /></svg>    

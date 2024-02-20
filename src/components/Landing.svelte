@@ -22,7 +22,7 @@
 </div>
 <div class="lg:col-span-4 text-center">
     <div class="text-5xl lg:text-7xl xl:text-7xl mb-5">
-        I'm <span class="underline decoration-wavy decoration-emerald-900 decoration-8"><b>Zixian</b></span>.<br>
+        <div class="animate-bounce">I'm <span class="underline decoration-wavy decoration-emerald-900 decoration-8"><b>Zixian</b></span>.</div>
         <div class="flex justify-center">
             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
             <!-- License: CC0. Made by SVG Repo: https://www.svgrepo.com/svg/11101/curved-arrow -->
@@ -89,4 +89,5 @@
     .arrow-svg {
         transform: rotate(160deg) translateY(-0.8em) translateX(-1.7em);
     }
+
 </style>
