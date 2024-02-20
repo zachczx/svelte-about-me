@@ -2,6 +2,19 @@
   import mcoLogoWhite from "$lib/assets/mco.webp";
   import mindefLogoWhite from "$lib/assets/mindeflogo.webp";
   import sngLogoWhite from "$lib/assets/SNGlogo.webp";
+
+  import AOS from 'aos';
+  import 'aos/dist/aos.css';
+  import {onMount} from 'svelte';
+
+  onMount(() => {
+      AOS.init({
+          offset: 120,
+          anchorPlacement: 'top-bottom',
+          duration: 1500,
+          once: true,
+      })
+  })
 </script>
 
 <h2 id="experience" class="mb-7 text-center flex justify-center"><a href="https://www.linkedin.com/in/zixianchen/">Past work</a>
@@ -16,7 +29,7 @@
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
     </div>
-    <div class="timeline-start md:text-end">
+    <div class="timeline-start md:text-end" data-aos="zoom-in-right">
       <time class="italic text-lg xl:text-xl">2013</time>
       <div class="md:justify-end">
         <div class="avatar" style="height:150px">
@@ -41,7 +54,7 @@
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
     </div>
-    <div class="timeline-end">
+    <div class="timeline-end" data-aos="zoom-in-left">
       <time class="italic text-lg xl:text-xl">2015</time>
       <div class="">
         <div class="avatar" style="height:150px">
@@ -66,7 +79,7 @@
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
     </div>
-    <div class="timeline-start md:text-end">
+    <div class="timeline-start md:text-end" data-aos="zoom-in-right">
       <time class="italic text-lg xl:text-xl">2017</time>
       <div class="md:justify-end">
         <div class="avatar" style="height:150px">
@@ -91,7 +104,7 @@
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
     </div>
-    <div class="timeline-end">
+    <div class="timeline-end" data-aos="zoom-in-left">
       <time class="italic text-lg xl:text-xl">2021</time>
       <div class="">
         <div class="avatar" style="height:150px">
@@ -116,7 +129,7 @@
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="green" class="h-5 w-5 fill-lime-600"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
     </div>
-    <div class="timeline-start md:text-end mb-10">
+    <div class="timeline-start md:text-end mb-10" data-aos="zoom-in-right">
       <time class="italic text-lg xl:text-xl">2023</time>
       <div class="md:justify-end">
         <div class="avatar" style="height:150px">
