@@ -16,7 +16,7 @@
 
 <div class="grid grid-cols-1 lg:grid-cols-12 items-center w-full min-h-dvh ">
 <div class="lg:col-span-3">
-    <p class="text-5xl lg:text-7xl xl:text-9xl text-center lg:text-center bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-emerald-900">
+    <p class="text-5xl lg:text-7xl xl:text-9xl text-center lg:text-center bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-emerald-900 -rotate-45">
         <b>Hello!</b>
     </p>
 </div>
@@ -49,19 +49,19 @@
             </svg>
         </div>
     </div>
-    <div class="avatar w-4/6">
-        <div class="rounded-full ring ring-accent ring-offset-base-100 ring-offset-2"><a href="#kitkit"><img src={profilepic} class="" alt="Doggo and I"></a></div>
+    <div class="avatar w-full">
+        <div class="rounded-full"><a href="#kitkit"><img src={profilepic} class="" alt="Doggo and I"></a></div>
     </div>
 </div>
 <div class="lg:col-span-5">
     <div class="grid justify-start">
-    <div>
-        <p class="text-2xl lg:text-3xl xl:text-4xl mb-2">At work I'm a <button class="rounded-full btn btn-accent text-2xl lg:text-3xl xl:text-4xl"><a href="#experience">public servant</a></button></p>
-        <p class="text-xl lg:text-xl xl:text-3xl mb-10 ms-[4rem] text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-corner-down-right inline" width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 6v6a3 3 0 0 0 3 3h10l-4 -4m0 8l4 -4" /></svg> I do <b>digitalization</b> and <b>digital products</b>.</p>
+    <div class="rotate-12">
+        <p class="text-2xl xl:text-4xl mb-2">At work I'm a <button class="rounded-full btn btn-accent text-2xl xl:text-4xl"><a href="#experience">public servant</a></button></p>
+        <p class="text-xl xl:text-2xl mb-10 ms-[4rem] text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-corner-down-right inline" width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 6v6a3 3 0 0 0 3 3h10l-4 -4m0 8l4 -4" /></svg> I do <b>digitalization</b> and <b>digital products</b>.</p>
     </div>
-    <div>
-        <p class="text-2xl lg:text-3xl xl:text-4xl mb-2">At home I'm a <span class="rounded-full btn btn-accent text-2xl lg:text-3xl xl:text-4xl"><a href="#projects">webdev wannabe</a></span></p>
-        <p class="text-xl lg:text-xl xl:text-3xl mb-6 ms-[4rem] text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-corner-down-right inline" width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 6v6a3 3 0 0 0 3 3h10l-4 -4m0 8l4 -4" /></svg> I enjoy developing <b>web apps</b>.</p>
+    <div class="rotate-12">
+        <p class="text-2xl xl:text-4xl mb-2">At home I'm a <span class="rounded-full btn btn-accent text-2xl xl:text-4xl"><a href="#projects">webdev wannabe</a></span></p>
+        <p class="text-xl xl:text-2xl mb-6 ms-[4rem] text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-corner-down-right inline" width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 6v6a3 3 0 0 0 3 3h10l-4 -4m0 8l4 -4" /></svg> I enjoy developing <b>web apps</b>.</p>
     </div>
     </div>
 </div>
