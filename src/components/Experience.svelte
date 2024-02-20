@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="text-lg xl:text-3xl font-black">Policy Executive</div>
-      <p class="italic font-bold text-gray-600 mb-3">MINDEF NS Policy</p>
+      <p class="italic font-bold text-gray-600 mb-3">@ MINDEF NS Policy Department</p>
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus inline" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" fill="black" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M9 12h6" stroke="white" /><path d="M12 9v6" stroke="white" /></svg>
         Did a bunch of meaningful policy (paper) work
@@ -124,7 +124,7 @@
         </div>
       </div>
       <div class="text-lg xl:text-3xl font-black">Product Owner</div>
-      <p class="italic font-bold text-gray-600 mb-3">@ MINDEF Service Delivery</p>
+      <p class="italic font-bold text-gray-600 mb-3">@ MINDEF Service Delivery Division</p>
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus inline" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" fill="black" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M9 12h6" stroke="white" /><path d="M12 9v6" stroke="white" /></svg>
         Owns internal employee tools/systems for employee services</p>
