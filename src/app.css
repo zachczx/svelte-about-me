@@ -22,7 +22,11 @@ section {
     }
     
     h3 {
-        @apply text-2xl lg:text-2xl;
+        @apply text-3xl lg:text-3xl;
         font-weight: 600;
+    }
+
+    p {
+        @apply lg:text-lg xl:text-xl;
     }
 }
