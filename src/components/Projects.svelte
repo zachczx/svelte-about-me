@@ -24,8 +24,8 @@ let yes = "dose"
             </div>
             <div class="timeline-start md:text-end mb-10">
             <time class="italic"></time>
-            <div class="text-lg font-black mt-1">Context</div>
-            Officers are rank sorted on Excel sheet, but not in sequence.
+            <h3 class="font-black mt-1">Context</h3>
+            <p>Officers are rank sorted on Excel sheet, but not in sequence.</p>
             </div>
             <hr/>
         </li>
@@ -36,8 +36,8 @@ let yes = "dose"
             </div>
             <div class="timeline-end md:text-start mb-10">
                 <time class="italic"></time>
-                <div class="text-lg font-black mt-1">Problem</div>
-                Excel is inefficient - doesn't sort automatically, doesn't show grades assigned, doesn't show quotas.
+                <h3 class="font-black mt-1">Problem</h3>
+                <p>Excel is inefficient - doesn't sort automatically, doesn't show grades assigned, doesn't show quotas.</p>
             </div>
             <hr style="background-color: #ef4444" />
         </li>
@@ -48,9 +48,9 @@ let yes = "dose"
             </div>
             <div class="timeline-start md:text-end mb-10">
             <time class="italic"></time>
-            <div class="text-lg font-black mt-1">Solution</div>
-            <p class="mb-4">Drag-and-drop list with some state management using localStorage.</p>
-            <a href="https://tinker.zixianchen.com/rank/"><button class="btn btn-accent btn-sm text-base">
+            <h3 class="font-black mt-1">Solution</h3>
+            <p class="mb-4">Drag-and-drop list, state management using Htmx for each drop (previously localStorage).</p>
+            <a href="https://tinker.zixianchen.com/rank/"><button class="btn btn-accent btn-sm lg:text-lg xl:text-xl">
                 Rank-a-Mate webapp
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M15 16l4 -4" /><path d="M15 8l4 4" /></svg>
             </button></a>
@@ -64,8 +64,8 @@ let yes = "dose"
             </div>
             <div class="timeline-end md:text-start mb-10">
             <time class="italic"></time>
-            <div class="text-lg font-black mt-1">Further features</div>
-            Sync with backend DB for persistence? Toggleable grade visualisation?
+            <h3 class="font-black mt-1">Further features</h3>
+            <p>Users can segregate entries according to ranking grades (A/B/C/D). Users can adjust grade quotas. Users can import json/csv files for quick population.</p>
             </div>
             <hr style="background-color: #eab308;" />
         </li>
@@ -87,8 +87,8 @@ let yes = "dose"
           </div>
           <div class="timeline-start md:text-end mb-10">
             <time class="italic"></time>
-            <div class="text-lg font-black mt-1">Context</div>
-            I was a new home owner with little money.
+            <h3 class="font-black mt-1">Context</h3>
+            <p>I was a new home owner with little money.</p>
           </div>
           <hr/>
         </li>
@@ -99,8 +99,8 @@ let yes = "dose"
             </div>
             <div class="timeline-end md:text-start mb-10">
               <time class="italic"></time>
-              <div class="text-lg font-black mt-1">Problem</div>
-              I didn't know how to buy/ship from Taobao, design, choose lights, pick flooring, select fans, decide taps, etc.
+              <h3 class="font-black mt-1">Problem</h3>
+              <p>I didn't know how to buy/ship from Taobao, design, choose lights, pick flooring, select fans, decide taps, etc.</p>
             </div>
             <hr style="background-color: #ef4444" />
         </li>
@@ -111,10 +111,10 @@ let yes = "dose"
           </div>
           <div class="timeline-start md:text-end mb-10">
             <time class="italic"></time>
-            <div class="text-lg font-black mt-1">Solution</div>
+            <h3 class="font-black mt-1">Solution</h3>
             <p class="mb-4">Wordpress blog that documented my journey renovating my HDB, choosing an ID, buying and shipping from Taobao, DIY assembly.</p>
             <p class="mb-4">Easy to host on shared hosting (since shifted to OCI + Nginx + PHP-FPM), good admin UX, huge plugin ecosystem, many templates avail.</p>
-            <a href="https://btonomics.com"><button class="btn btn-accent btn-sm text-base">
+            <a href="https://btonomics.com"><button class="btn btn-accent btn-sm lg:text-lg xl:text-xl">
                 BTOnomics.com
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M15 16l4 -4" /><path d="M15 8l4 4" /></svg>
             </button></a>
@@ -128,8 +128,8 @@ let yes = "dose"
           </div>
           <div class="timeline-end md:text-start mb-10">
             <time class="italic"></time>
-            <div class="text-lg font-black mt-1">Further features</div>
-            Being maintained as legacy item, thinking of redoing it on Hugo or Sveltekit.
+            <h3 class="font-black mt-1">Further features</h3>
+            <p>Being maintained as legacy item, thinking of redoing it on Hugo or Sveltekit.</p>
           </div>
           <hr style="background-color: #eab308;" />
         </li>
@@ -151,8 +151,8 @@ let yes = "dose"
           </div>
           <div class="timeline-start md:text-end mb-10">
             <time class="italic"></time>
-            <div class="text-lg font-black mt-1">Context</div>
-            When my kid fell sick, I needed to know when the next dose of medicine was due.
+            <h3 class="font-black mt-1">Context</h3>
+            <p>When my kid fell sick, I needed to know when the next dose of medicine was due.</p>
           </div>
           <hr/>
         </li>
@@ -163,8 +163,8 @@ let yes = "dose"
             </div>
             <div class="timeline-end md:text-start mb-10">
               <time class="italic"></time>
-              <div class="text-lg font-black mt-1">Problem</div>
-                Tedious to constantly copy-paste-write medicine/date/times/intervals, record in Telegram/Keep/Notion. Difficult to share among both parents too.
+              <h3 class="font-black mt-1">Problem</h3>
+                <p>Tedious to constantly copy-paste-write medicine/date/times/intervals, record in Telegram/Keep/Notion. Difficult to share among both parents too.</p>
             </div>
             <hr style="background-color: #ef4444" />
         </li>
@@ -175,9 +175,9 @@ let yes = "dose"
           </div>
           <div class="timeline-start md:text-end mb-10">
             <time class="italic"></time>
-            <div class="text-lg font-black mt-1">Solution</div>
+            <h3 class="font-black mt-1">Solution</h3>
             <p class="mb-4">Webapp to auto fill doses, track timings, and prompt generic info about the medicine.</p>
-            <a href="https://tinker.zixianchen.com/eatyourmeds/"><button class="btn btn-accent btn-sm text-base">
+            <a href="https://tinker.zixianchen.com/eatyourmeds/"><button class="btn btn-accent btn-sm lg:text-lg xl:text-xl">
                 Eat Your Meds webapp
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M15 16l4 -4" /><path d="M15 8l4 4" /></svg>
             </button></a>
@@ -191,8 +191,8 @@ let yes = "dose"
           </div>
           <div class="timeline-end md:text-start mb-10">
             <time class="italic"></time>
-            <div class="text-lg font-black mt-1">Further features</div>
-            Whatsapp/SMS alerts? Integration with Twilio?
+            <h3 class="font-black mt-1">Further features</h3>
+            <p>Whatsapp/SMS alerts? Integration with Twilio?</p>
           </div>
           <hr style="background-color: #eab308;" />
         </li>
