@@ -26,8 +26,6 @@
     <div class="lg:col-span-6 z-50">
         <div class=""><a href="#kitkit"><img src={profilepic} class="w-[40rem]" alt="Doggo and I"></a></div>
     </div>
-    <div class="lg:col-span-6">
-    </div>
 </div>
 
 <style>
