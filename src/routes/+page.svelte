@@ -13,7 +13,7 @@
     <title>Hi! I'm Zixian Chen.</title>
 </svelte:head>
 
-<section id="landing" class="m-0 px-4 bg-yellowgreen">
+<section id="landing" class="m-0 bg-yellowgreen">
     <Header />
     <Landing />
 </section>
