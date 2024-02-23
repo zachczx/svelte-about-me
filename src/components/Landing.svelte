@@ -14,50 +14,16 @@
 </form>
 </dialog>-->
 
-<div class="grid items-center w-full min-h-dvh">
+<div class="grid grid-cols-2 items-center w-full min-h-dvh">
 
-    <div class="text-center font-bold leading-10 absolutemiddle inset-x-0">
-        <p class="text-9xl lg:text-[20rem] xl:text-[30rem] ">HELLO</p>
-        <p class="absolute xl:top-3/4 inset-x-0">
-            <span class="text-5xl lg:text-[12rem] xl:text-[13rem] bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-emerald-900">
-                
-            </span>
-            <span class="text-5xl lg:text-[12rem] xl:text-[13rem] bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-emerald-900">
-                I'M&nbsp;ZIXIAN
-            </span>
-        </p>
+    <div class="col-span-2 text-center font-bold absolute inset-x-0">
+        <div class="text-9xl lg:text-[20rem] xl:text-[30rem] tracking-wide .outfit">HELLO.</div>
     </div>
 
-    <div class="z-50 flex items-end h-full">
+    <div class="z-10 flex items-end h-full">
         <div class=""><a href="#kitkit"><img src={profilepic} class="w-[40rem]" alt="Doggo and I"></a></div>
     </div>
+    <div class="place-items-center z-50">
+        <span class="text-[5rem] text-white bg-emerald-800 p-3 font-bold">I'm Zixian</span>
+    </div>
 </div>
-
-<style>
-    .imground {
-        clip-path: ellipse(100% 50% at 50% 40%);   
-    }
-
-    .imggrunge {
-        background-image: url("../lib/assets/svg/blob.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    .imggrunge2 {
-        background-image: url("../lib/assets/svg/blob2.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    .arrow-svg {
-        transform: rotate(160deg) translateY(-0.8em) translateX(-1.7em);
-    }
-
-.absolutemiddle {
-    position: absolute;
-    top: 20%;
-}
-</style>

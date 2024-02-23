@@ -23,7 +23,7 @@ let dxotoggle = false
 <h2 id="about" class="mb-5 text-center">Who am I?</h2>
 <div class="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-5">
     <div>
-        <div class="card bg-accent-content shadow-xl" data-aos="slide-up">
+        <div class="card bg-accent-content shadow-xl" data-aos="fade-up">
             <div class="card-body">
                 <h2 class="card-title text-2xl xl:text-3xl"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg> 
                     Civil serpent
@@ -42,7 +42,7 @@ let dxotoggle = false
         </div>
     </div>
     <div>
-        <div class="card bg-accent-content shadow-xl" data-aos="slide-down">
+        <div class="card bg-accent-content shadow-xl" data-aos="fade-down">
             <figure><img src={corgiConstruction} alt="Corgi at work" class="object-scale-down" loading="lazy" /></figure>
             <div class="card-body">
                 <h2 class="card-title text-2xl xl:text-3xl">
@@ -56,7 +56,7 @@ let dxotoggle = false
         <p></p>
     </div>
     <div>
-        <div class="card bg-accent-content shadow-xl" data-aos="slide-up">
+        <div class="card bg-accent-content shadow-xl" data-aos="fade-up">
             <div class="card-body">
                 <h2 class="card-title text-2xl xl:text-3xl">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-office" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 18h9v-12l-5 2v5l-4 2v-8l9 -4l7 2v13l-7 3z" /></svg> 
@@ -68,7 +68,7 @@ let dxotoggle = false
         </div>
     </div>
     <div>
-        <div class="card bg-accent-content shadow-xl" data-aos="slide-down">
+        <div class="card bg-accent-content shadow-xl" data-aos="fade-down">
             <figure><img src={corgiProgrammingCard} alt="Corgi programming" class="object-scale-down" loading="lazy" /></figure>
             <div class="card-body">
                 <h2 class="card-title text-2xl xl:text-3xl">

@@ -29,7 +29,7 @@
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
     </div>
-    <div class="timeline-start md:text-end" data-aos="zoom-in-right">
+    <div class="timeline-start md:text-end" data-aos="fade-right">
       <time class="italic text-lg xl:text-xl">2013</time>
       <div class="md:justify-end">
         <div class="avatar" style="height:150px">
@@ -54,11 +54,11 @@
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
     </div>
-    <div class="timeline-end" data-aos="zoom-in-left">
+    <div class="timeline-end" data-aos="fade-left">
       <time class="italic text-lg xl:text-xl">2015</time>
       <div class="">
         <div class="avatar" style="height:150px">
-          <div class="rounded-full ring ring-gray-200"><img src={mcoLogoWhite} width="150" height="150" alt="MCO"></div>
+          <div class="rounded-full ring ring-gray-200"><a href="https://www.mindef.gov.sg/web/wcm/connect/mindef/3784219c-51b6-42ef-82d3-ffe169ca19d7/mco_recruitment_cards_19_01_2023.pdf?MOD=AJPERES&CVID=on8PJ3R"><img src={mcoLogoWhite} width="150" height="150" alt="MCO"></a></div>
         </div>
       </div>
       <div class="text-lg xl:text-3xl font-black">Communications Officer</div>
@@ -79,11 +79,11 @@
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
     </div>
-    <div class="timeline-start md:text-end" data-aos="zoom-in-right">
+    <div class="timeline-start md:text-end" data-aos="fade-right">
       <time class="italic text-lg xl:text-xl">2017</time>
       <div class="md:justify-end">
         <div class="avatar" style="height:150px">
-          <div class="rounded-full ring ring-gray-200"><img src={mcoLogoWhite} width="150" height="150" alt="MCO"></div>
+          <div class="rounded-full ring ring-gray-200"><a href="https://www.mindef.gov.sg/web/wcm/connect/mindef/3784219c-51b6-42ef-82d3-ffe169ca19d7/mco_recruitment_cards_19_01_2023.pdf?MOD=AJPERES&CVID=on8PJ3R"><img src={mcoLogoWhite} width="150" height="150" alt="MCO"></a></div>
         </div>
       </div>
       <div class="text-lg xl:text-3xl font-black">Comms Product Owner</div>
@@ -104,11 +104,11 @@
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
     </div>
-    <div class="timeline-end" data-aos="zoom-in-left">
+    <div class="timeline-end" data-aos="fade-left">
       <time class="italic text-lg xl:text-xl">2021</time>
       <div class="">
         <div class="avatar" style="height:150px">
-          <div class="rounded-full ring ring-gray-200"><img src={sngLogoWhite} width="150" height="150" alt="Smart Nation Group"></div>
+          <div class="rounded-full ring ring-gray-200"><a href="https://www.smartnation.gov.sg/"><img src={sngLogoWhite} width="150" height="150" alt="Smart Nation Group"></a></div>
         </div>
       </div>
       <div class="text-lg xl:text-3xl font-black">Digital Infrastructure</div>
@@ -129,7 +129,7 @@
     <div class="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="green" class="h-5 w-5 fill-lime-600"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
     </div>
-    <div class="timeline-start md:text-end mb-10" data-aos="zoom-in-right">
+    <div class="timeline-start md:text-end mb-10" data-aos="fade-right">
       <time class="italic text-lg xl:text-xl">2023</time>
       <div class="md:justify-end">
         <div class="avatar" style="height:150px">

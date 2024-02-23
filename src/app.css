@@ -3,12 +3,22 @@
 @tailwind utilities;
 
 :root {
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
     overflow-x: clip;
 }
 
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
 section {
-    overflow: hidden;
+    /* overflow: hidden;*/
 }
 
 @layer base {
