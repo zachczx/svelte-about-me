@@ -21,7 +21,7 @@ let dxotoggle = false
 </script>
 
 <h2 id="about" class="mb-5 text-center">Who am I?</h2>
-<div class="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-5">
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-5 mb-10">
     <div>
         <div class="card bg-accent-content shadow-xl" data-aos="fade-up">
             <div class="card-body">

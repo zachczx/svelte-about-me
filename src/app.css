@@ -23,18 +23,18 @@ section {
 
 @layer base {
     h1 {
-        @apply text-7xl lg:text-7xl;
-        font-weight: 700;
+        @apply text-7xl lg:text-8xl;
+        font-weight: 800;
     }
 
     h2 {
-        @apply text-5xl lg:text-5xl;
-        font-weight: 600;
+        @apply text-5xl lg:text-7xl;
+        font-weight: 800;
     }
     
     h3 {
-        @apply text-3xl lg:text-3xl;
-        font-weight: 600;
+        @apply text-3xl lg:text-5xl;
+        font-weight: 700;
     }
 
     p {
