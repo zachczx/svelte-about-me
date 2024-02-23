@@ -39,7 +39,7 @@
     </div>
 </section>
 
-<section class="p-5 bg-greengreen">
+<section class="p-5 bg-greengreen min-h-dvh">
     <Projects />
 </section>
 

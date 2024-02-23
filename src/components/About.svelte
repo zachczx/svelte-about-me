@@ -49,7 +49,9 @@ let dxotoggle = false
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shovel" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 4l3 3" /><path d="M18.5 5.5l-8 8" /><path d="M8.276 11.284l4.44 4.44a.968 .968 0 0 1 0 1.369l-2.704 2.704a4.108 4.108 0 0 1 -5.809 -5.81l2.704 -2.703a.968 .968 0 0 1 1.37 0z" /></svg>
                     Work work
                 </h2>
-              <p>I like to get hands on for tech related problems and ideas. Learned to function despite bureaucracy.</p>
+              <p>I like to get hands on for tech related problems and ideas.</p>
+              <p>I try to ask hard questions and do stuff in a more alternative fashion.</p>
+              <p>I do my best to look beyond the bureacracy and red-tape - it's real.</p>
             </div>
           </div>
         
@@ -75,7 +77,8 @@ let dxotoggle = false
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-desktop" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z" /><path d="M7 20h10" /><path d="M9 16v4" /><path d="M15 16v4" /></svg>    
                     Hobby
                 </h2>
-              <p>As a hobby, I like to build stuff on the web that can solve real problems. Even better if I can try out yet another JS framework!</p>
+                <p>As a hobby, I like to build stuff on the web that can solve real problems. </p>
+                <p>Django is great. Also good if I can try out various new libraries and frameworks.</p>
             </div>
           </div>
     </div>
