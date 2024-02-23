@@ -4,6 +4,7 @@
 
 :root {
     font-family: 'Rubik', sans-serif;
+    overflow-x: clip;
 }
 
 section {

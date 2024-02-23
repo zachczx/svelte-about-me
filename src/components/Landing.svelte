@@ -14,16 +14,21 @@
 </form>
 </dialog>-->
 
-<div class="grid grid-cols-1 lg:grid-cols-12 items-center w-full">
+<div class="grid items-center w-full min-h-dvh">
 
-    <div class="lg:col-span-12 text-center font-bold leading-10 lg:absolute lg:top-50 lg:left-50">
-        <span class="text-4xl lg:text-[15rem]">I AM&nbsp;</span>
-        <span class="text-5xl lg:text-[15rem] text-center lg:text-center bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-emerald-900">
-            <b>ZIXIAN</b>
-        </span>
+    <div class="text-center font-bold leading-10 absolutemiddle inset-x-0">
+        <p class="text-9xl lg:text-[20rem] xl:text-[30rem] ">HELLO</p>
+        <p class="absolute xl:top-3/4 inset-x-0">
+            <span class="text-5xl lg:text-[12rem] xl:text-[13rem] bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-emerald-900">
+                
+            </span>
+            <span class="text-5xl lg:text-[12rem] xl:text-[13rem] bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-emerald-900">
+                I'M&nbsp;ZIXIAN
+            </span>
+        </p>
     </div>
 
-    <div class="lg:col-span-6 z-50">
+    <div class="z-50 flex items-end h-full">
         <div class=""><a href="#kitkit"><img src={profilepic} class="w-[40rem]" alt="Doggo and I"></a></div>
     </div>
 </div>
@@ -51,4 +56,8 @@
         transform: rotate(160deg) translateY(-0.8em) translateX(-1.7em);
     }
 
+.absolutemiddle {
+    position: absolute;
+    top: 20%;
+}
 </style>
