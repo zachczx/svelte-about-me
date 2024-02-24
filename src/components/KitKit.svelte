@@ -16,7 +16,7 @@ import kit8 from "$lib/assets/kit.webp";
     Shoutout to our doggo, Kit (Kitkit) 
     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dog inline fill-gray-400 w-[50px] lg:w-[70px]" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11 5h2" /><path d="M19 12c-.667 5.333 -2.333 8 -5 8h-4c-2.667 0 -4.333 -2.667 -5 -8" /><path d="M11 16c0 .667 .333 1 1 1s1 -.333 1 -1h-2z" /><path d="M12 18v2" /><path d="M10 11v.01" /><path d="M14 11v.01" /><path d="M5 4l6 .97l-6.238 6.688a1.021 1.021 0 0 1 -1.41 .111a.953 .953 0 0 1 -.327 -.954l1.975 -6.815z" /><path d="M19 4l-6 .97l6.238 6.688c.358 .408 .989 .458 1.41 .111a.953 .953 0 0 0 .327 -.954l-1.975 -6.815z" /></svg>
 </h2>
-<p class="text-base mb-5">She's the best doggo friend we could ask for.</p>
+<p class="mb-5">She's the best doggo friend we could ask for.</p>
 <div class="flex justify-center h-96">
 <div class="carousel carousel-center p-4 w-full space-x-4 bg-base-300 rounded-box">
     <div class="carousel-item">

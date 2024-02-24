@@ -49,7 +49,7 @@ let yes = "dose"
             <div class="timeline-start md:text-end mb-10">
             <time class="italic"></time>
             <h3 class="font-black mt-1">Solution</h3>
-            <p class="mb-4">Drag-and-drop list, state management using Htmx for each drop (previously localStorage).</p>
+            <p class="mb-4">Drag-and-drop list, state management using Htmx for each drag+drop (previously localStorage).</p>
             <a href="https://tinker.zixianchen.com/rank/"><button class="btn btn-accent btn-sm lg:text-lg xl:text-xl">
                 Rank-a-Mate webapp
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M15 16l4 -4" /><path d="M15 8l4 4" /></svg>
@@ -65,7 +65,7 @@ let yes = "dose"
             <div class="timeline-end md:text-start mb-10">
             <time class="italic"></time>
             <h3 class="font-black mt-1">Further features</h3>
-            <p>Users can segregate entries according to ranking grades (A/B/C/D). Users can adjust grade quotas. Users can import json/csv files for quick population.</p>
+            <p>Users can segregate entries according to ranking grades (A/B/C/D). Users can define percentiles for grade quotas. Users can import json/csv files for quick population.</p>
             </div>
             <hr style="background-color: #eab308;" />
         </li>
