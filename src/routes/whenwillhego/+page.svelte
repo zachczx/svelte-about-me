@@ -29,13 +29,13 @@
     <svelte:head>
     <title>Countdown time</title>
 </svelte:head>
-<section id="Main" class="bg-image h-dvh p-5">
-<h1 class="bg-clip-text text-transparent bg-gradient-to-r from-orange-200 to-white mb-5 pb-3 text-center">When will he go?</h1>
+<section id="Main" class="bg-image min-h-dvh p-5">
+<h1 class="bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-white mb-5 pb-3 text-center">When will he go?</h1>
 
 <div class="grid justify-items-center">
-    <div class="text-xl italic mt-3 rounded-lg bg-red-200 p-5 mb-10">
+    <div class="text-xl italic mt-3 rounded-lg bg-gradient-to-r from-red-600 text-white py-5 ps-5 px-9 mb-10">
         <p class="">
-            <svg xmlns="http://www.w3.org/2000/svg" class="inline me-2" width="24" height="24" viewBox="0 0 24 24"><path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"/></svg>            
+            <svg xmlns="http://www.w3.org/2000/svg" class="inline me-2 fill-white" width="40" height="40" viewBox="0 0 24 24"><path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"/></svg>            
             {#if text === 1}
             Armed with knowledge, a digital knight,<br>
             To slay the forms and make systems alight.<br>
@@ -64,7 +64,7 @@
             So long, dear government, progress unknown,<br>
             My talents seek a fertile codebase, a digital throne.
             {/if}
-          <svg xmlns="http://www.w3.org/2000/svg" class="inline ms-2" width="24" height="24" viewBox="0 0 24 24"><path d="M11 9.275c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275zm13 0c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="inline ms-2 fill-white" width="40" height="40" viewBox="0 0 24 24"><path d="M11 9.275c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275zm13 0c0 5.141-3.892 10.519-10 11.725l-.984-2.126c2.215-.835 4.163-3.742 4.38-5.746-2.491-.392-4.396-2.547-4.396-5.149 0-3.182 2.584-4.979 5.199-4.979 3.015 0 5.801 2.305 5.801 6.275z"/></svg>
         </p>
     </div>
 </div>
