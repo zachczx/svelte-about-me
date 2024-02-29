@@ -17,18 +17,26 @@
     }, 1000)
     let random = Math.floor(Math.random() * 100)
     let text = 1
-    if (random <= 33) {
+    if (random <= 25) {
       text = 1
-    } else if (random <= 66 && random > 33) {
+    } else if (random <= 50 && random > 25) {
       text = 2 
+    } else if (random <= 75 && random > 50) {
+      text = 3 
     } else {
-      text = 3
+      text = 4
     }
 </script>
     
     <svelte:head>
     <title>Countdown time</title>
 </svelte:head>
+{#if difference < 0 || trigger === true}
+<div class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
+</div>
+{/if}
 <section id="Main" class="bg-image min-h-dvh p-5">
 <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-white mb-5 pb-3 text-center">When will he go?</h1>
 
@@ -54,6 +62,21 @@
             Ideas drowned in process's mumbling chums.<br>
             So long, bureaucracy, where progress sleeps,<br>
             My skills are better suited elsewhere, it seems.
+            {:else if text === 3}
+            In the halls of power, a geek did tread,<br>
+            With visions of algorithms, bright ideas in his head.<br>
+            He dreamt of reform, efficiency to sow,<br>
+            But found himself amidst a bureaucratic show.<br><br>
+
+            "Change the system!" he cried, with logic so clear,<br>
+            But the old guard just smirked, "Innovations not welcome here."<br>
+            His code was clean, his intentions pure,<br>
+            Yet against entrenched incompetence, he found no cure.<br>
+
+            So from his cubicle, he plans his retreat,<br>
+            A tale of a hero, who faced the system's defeat.<br>
+            Yet, in his exit, a spark remains aglow,<br>
+            For change comes not swiftly, and seeds need time to grow.
             {:else}
             Came to serve, code in hand,<br>
             To slay the forms, make the nation grand.<br>
@@ -97,17 +120,17 @@
 </div>
 
 <div class="text-center mt-10"><button class="btn bg-red-600 text-white hover:bg-pink-500 text-2xl" on:click={() => {trigger = !trigger}}><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-confetti me-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 5h2" /><path d="M5 4v2" /><path d="M11.5 4l-.5 2" /><path d="M18 5h2" /><path d="M19 4v2" /><path d="M15 9l-1 1" /><path d="M18 13l2 -.5" /><path d="M18 19h2" /><path d="M19 18v2" /><path d="M14 16.518l-6.518 -6.518l-4.39 9.58a1 1 0 0 0 1.329 1.329l9.579 -4.39z" /></svg>Celebrate prematurely</button></div>
-{#if difference < 0 || trigger === true}
-<div class="pyro">
-    <div class="before"></div>
-    <div class="after"></div>
-</div>
-{/if}
 </section>
 
     <style>
 :root {
-    overflow-y: none;
+    @media screen and (max-width: 767px) {
+      overflow-y: none;
+    }
+    
+    @media screen and (min-width: 768px) {
+      overflow-y: clip;
+    }
 }
 
 .bg-image {
