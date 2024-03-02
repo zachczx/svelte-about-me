@@ -16,7 +16,7 @@
         }
     }, 1000)
     let random = Math.floor(Math.random() * 100)
-    let text = 1
+    let text
     if (random <= 25) {
       text = 1
     } else if (random <= 50 && random > 25) {
