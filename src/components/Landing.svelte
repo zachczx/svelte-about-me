@@ -21,7 +21,7 @@
     </div>
 
     <div class="z-10 flex items-end h-full">
-        <div class=""><a href="#kitkit"><img src={profilepic} class="w-[40rem]" alt="Doggo and I"></a></div>
+        <div class=""><a href="#kitkit"><img src={profilepic} class="w-[40rem]" alt="Picture of Zixian and Kit"></a></div>
     </div>
     <div class="place-items-center z-50">
         <span class="text-[5rem] text-white bg-emerald-800 p-3 font-bold">I'm Zixian</span>
