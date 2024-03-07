@@ -28,7 +28,7 @@ let dxotoggle = false
                 <h2 class="card-title text-2xl xl:text-3xl"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg> 
                     Civil serpent
                 </h2>
-                <p>I work in the public service in Singapore.
+                <p>I'm a public servant in Singapore.
                 <sup>
                     <button on:click={() => {dxotoggle = !dxotoggle}}>#</button>
                     {#if dxotoggle}
@@ -36,7 +36,7 @@ let dxotoggle = false
                     {/if}
                 </sup>
               </p>
-              <p>I do digitalization and digital products.</p>
+              <p>I do digitalization and digital products in the public service. Not all great. Govt products are often not great, bloated, and solution-driven. Usual suspects - senior management said so, too many stakeholders to consult/agree, 101 forums to seek approval to change for the better, lack of competency to see the problem.</p>
             </div>
             <figure><img src={civilSerpentCard} alt="Civil serpent gogogo" class="object-scale-down" loading="lazy" /></figure>
         </div>
@@ -53,9 +53,7 @@ let dxotoggle = false
               <p>I try to ask hard questions and do stuff in a more alternative fashion.</p>
               <p>I do my best to look beyond the bureacracy and red-tape - it's real.</p>
             </div>
-          </div>
-        
-        <p></p>
+        </div>
     </div>
     <div>
         <div class="card bg-accent-content shadow-xl" data-aos="fade-up">
