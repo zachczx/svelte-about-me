@@ -50,7 +50,7 @@ let yes = "dose"
             <time class="italic"></time>
             <h3 class="font-black mt-1">Solution</h3>
             <p class="mb-4">Drag-and-drop list, state management using Htmx for each drag+drop (previously localStorage).</p>
-            <a href="https://tinker.zixianchen.com/rank/"><button class="btn btn-accent btn-sm lg:text-lg xl:text-xl">
+            <a href="https://app.zixian.dev/rank/"><button class="btn btn-accent btn-sm lg:text-lg xl:text-xl">
                 Rank-a-Mate webapp
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M15 16l4 -4" /><path d="M15 8l4 4" /></svg>
             </button></a>
@@ -177,7 +177,7 @@ let yes = "dose"
             <time class="italic"></time>
             <h3 class="font-black mt-1">Solution</h3>
             <p class="mb-4">Webapp to auto fill doses, track timings, and prompt generic info about the medicine.</p>
-            <a href="https://tinker.zixianchen.com/eatyourmeds/"><button class="btn btn-accent btn-sm lg:text-lg xl:text-xl">
+            <a href="https://app.zixian.dev/eatyourmeds/"><button class="btn btn-accent btn-sm lg:text-lg xl:text-xl">
                 Eat Your Meds webapp
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M15 16l4 -4" /><path d="M15 8l4 4" /></svg>
             </button></a>
